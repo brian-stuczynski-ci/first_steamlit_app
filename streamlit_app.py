@@ -13,4 +13,6 @@ streamlit.text('Bacon Egg and Cheese')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
+streamlit.multiselect("Pick Some Fruit:", list(my_fruit_list.index))
+
 streamlit.dataframe(my_fruit_list)
